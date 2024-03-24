@@ -1,9 +1,108 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>for loop</title>
+		<meta charset="utf-8">
+		<title>Mysite</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	</head>
 	<body>
-		<script src="app.js"></script>
+		
+		<div class="row">
+			<div class="col-md-2">
+				<div class="menu">
+					<img src="shadow.jpg">
+					<h4>Bilguuntugs<h4>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About me</a></li>
+						<li><a href="#project">Project</a></li>
+						<li><a href="#contact">Valorant</a></li>
+					</ul>
+				</div>
+			</div>
+				
+			<div class="col-md-10">
+				<div id="home">
+				<img src ="valo.png"width="95%" height="90%">
+				</div>
+				<div id="about">
+				<h1>About</h1>
+				<div class="row">
+					<div class="col-md-5">
+					<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg> Name: Bilguuntugs</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg> Age: 14</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg> PhoneNumber: 94142803</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg> Grade: 8th Grade</p>
+					</div>
+					<div class="col-md-5">
+					<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg> Hobby: VolleyBall and Gaming</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>School: OrkhonHasu</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>City: UlaanBaatar</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>Favorate color: Black and Red</p>
+					</div>
+				</div>
+				
+				
+				<div class="skill-bars">
+				<div class="bar">
+				  <div class="info">
+					<span>HTML</span>
+				  </div>
+				  <div class="progress-line html">
+					<span></span>
+				  </div>
+				</div>
+				<div class="bar">
+				  <div class="info">
+					<span>CSS</span>
+				  </div>
+				  <div class="progress-line css">
+					<span></span>
+				  </div>
+				</div>
+				<div class="bar">
+				  <div class="info">
+					<span>Javascript</span>
+				  </div>
+				  <div class="progress-line jquery">
+					<span></span>
+				  </div>
+				</div>
+			  </div>
+				</div>
+				<div id="project">
+				<h2>Projects:</h2>
+				<a href="file:///C:/Users/Dell/Desktop/tc-204/lab7/index.html"><img src="color2.png" width="30%" ></a>
+				<a href="file:///C:/Users/Dell/Desktop/tc-204/lab8/index.html"> <img src="counter.png" width="30%" ></a>
+				<a href="file:///C:/Users/Dell/Desktop/tc-204/lab10/index.html"><img src="weather.png" width="30%" ></a>
+				<a href="file:///C:/Users/Dell/Desktop/tc-204/lab12/index.html"><img src="snake.png" width="30%" ></a>
+				<a href="file:///C:/Users/Dell/Desktop/tc-204/lab11/index.html"><img src="todo.png" width="30%" ></a>
+				</div>
+				<div id="contact">
+				<img src="val.avif"width="99%" height="95%">
+				</div>
+				
+			</div>
+		</div>
 	</body>
 </html>
